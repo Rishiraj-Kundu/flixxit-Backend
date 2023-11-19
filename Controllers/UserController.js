@@ -55,11 +55,7 @@ module.exports.removeFromLikedMoives = async (req, res) => {
       );
       return res.json({ msg: "Movie deleted", movies: likedMovies });
     }
-  } catch (err) {
-<<<<<<< HEAD
-    return; 
-=======
+  } catch (err) { 
     return;// res.json({ msg: "Error deleting movie" });
->>>>>>> 979cb908158ea92ce62b4053406f57fa796d4ae2
   }
 };
